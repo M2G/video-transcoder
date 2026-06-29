@@ -8,6 +8,8 @@ static int open_input(const char *filename, inputCtx *ic) {
 
 };
 
+static int open_decoder(InputCtx *ic) {}
+
 int main(int argc, char *argv[]) {
     if (argc != 5) {
         fprintf(stderr, "Usage: %s <input.mp4> <output.mp4> <width> <height>\n", argv[0]);
